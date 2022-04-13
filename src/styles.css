@@ -17,7 +17,7 @@
   }
   
   button {
-    background-color: black;
+    background-color: rgb(173, 173, 173);
     border-radius: 5px;
     border: 0px;
     color: white;
@@ -38,3 +38,18 @@
   .p-1 {
     padding: 1px;
   }
+
+  .row{
+    display: flex;
+  }
+
+  .col {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  input{
+    display: block;
+    margin: 5px;
+  }
+
